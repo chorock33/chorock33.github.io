@@ -6,6 +6,10 @@
     <style> table, thead, tbody, tfoot, tr, th, td  {border: 1px solid black;  border-collapse: collapse; text-align: center;}
       .subject1{background-color:lightgray;}
       .subject2{background-color:#FAF4C0;}
+      .subject3{background-color:#00FFFF;}
+      .subject4{background-color:#59FF00;}    
+      .subject5{background-color:#FFFF00;}
+      .subject6{background-color:#FF5200;}
       th, td{width:50px;}
     </style> <!-- border-collapse: collapse 단선으로, 반대는 separate -->
     <title>HTML5 시간표</title>
@@ -17,15 +21,15 @@
       <tr><th>시간</th> <th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th></tr>
       </thead>
       <tbody>
-      <tr><td>1교시</td> <td> </td>                                   <td>102만</td> <td rowspan="2" class="subject1">수학</td> <td>126.978417</td></tr>
-      <tr><td>2교시</td> <td> </td>                                   <td>355만</td> <!-- 수요일 2교시 --> <td>129.075000</td></tr>
-      <tr><td>3교시</td> <td rowspan="3" class="subject2">국어</td>   <td>153만</td> <td>36.350469</td>    <td>127.384826</td></tr>
-      <tr><td>4교시</td> <!-- 월요일 4교시 -->                         <td>102만</td> <td>37.566673</td>    <td>126.978417</td></tr>
-      <tr><td>5교시</td> <!-- 월요일 5교시 -->                         <td>355만</td> <td>35.179783</td>    <td>129.075000</td></tr>
-      <tr><td>6교시</td> <td>월요일 6교시</td>                         <td>153만</td> <td>36.350469</td>    <td>127.384826</td></tr>
-      <tr><td>7교시</td> <td> </td>                                   <td>109만</td> <td>37.566673</td>    <td>126.978417</td></tr>
-      <tr><td>8교시</td> <td> </td>                                   <td>355만</td> <td>35.179783</td>    <td>129.075000</td></tr>
-      <tr><td>9교시</td> <td> </td>                                   <td>153만</td> <td>36.350469</td>    <td>127.384826</td></tr>
+      <tr><td>1교시</td> <td> </td>                                            <td rowspan="2" class="subject2">오토마타와응용</td>   <td rowspan="2" class="subject3">자료구조및실습</td>   <td> </td> <td> </td></tr>
+      <tr><td>2교시</td> <td> </td>                                            <!-- 화요일 2교시 -->                                  <!-- 수요일 2교시 -->                                 <td> </td>  <td> </td></tr>
+      <tr><td>3교시</td> <td rowspan="2" class="subject1">디지털논리회로</td>   <td rowspan="2" class="subject3">자료구조및실습</td>    <td rowspan="2" class="subject5">영어강독</td>       <td class="subject2">오토마타와응용</td>  <td> </td></tr>
+      <tr><td>4교시</td> <!-- 월요일 4교시 -->                                 <!-- 화요일 4교시 -->                                   <!-- 수요일 4교시 -->                                 <td> </td></tr>
+      <tr><td>5교시</td> <td> </td>                                           <td class="subject1">디지털논리회로</td>                <td rowspan="4" class="subject6">C++프로그래밍</td>   <td rowspan="2" class="subject4">인터넷응용</td> <td> </td></tr>
+      <tr><td>6교시</td> <td> </td>                                           <td> </td>                                             <!-- 수요일 6교시 -->                                 <!-- 목요일 6교시 -->  <td> </td></tr>
+      <tr><td>7교시</td> <td> </td>                                           <td> </td>                                             <!-- 수요일 7교시 -->                                 <td> </td>  <td> </td></tr>
+      <tr><td>8교시</td> <td> </td>                                           <td> </td>                                             <!-- 수요일 8교시 -->                                 <td> </td>  <td> </td></tr>
+      <tr><td>9교시</td> <td> </td>                                           <td class="subject4">인터넷응용</td>                    <td> </td>                                           <td> </td>  <td> </td></tr>
       </tbody>
     </table>
   </body>
