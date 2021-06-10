@@ -16,14 +16,13 @@
     @media only screen and (max-width:768px) { [class*="col-"] {width:100%;} }
     
     header,nav,section,article,aside,footer
-    {border:1px solid gray; margin:5px; padding:8px; width:1000px;}
+    {border:1px solid gray; margin:5px; padding:8px;}
     header h2 {float:left; border:solid 1px gray; margin:0 0 0 0; }
-    header ul {margin:0; padding:0; }
-    header ul li {display:inline; margin:5px}
-    header img{width:990px; height:200px;}
-    section{width:750px; float:left;}
-    section section{width:725px; float:left;}
-    aside{width:221px; float:left; line-height:30px;}
+
+
+
+
+    aside{float:left; line-height:30px;}
     footer{height:50px; clear:both;}
     nav ul{margin:0; padding:0;}
     nav ul li{display:inline; margin:5px;}
@@ -41,22 +40,16 @@
       <h2>전종현의 포트폴리오</h2>
       <img src="../" alt="그림"/>
     </header>
-    <nav>
-      <ul>
-        <li><a href="https://">HOME</a></li>
-        <li><a href="http://">Profile</a></li>
-      </ul>
-    </nav>
-    <nav> <!-- 메뉴 -->
-        <ul><li>수강(예정)과목</li><li>프로젝트</li><li>자격증</li><li>캡스톤, 해커톤, 경진대회</li></ul></nav>
+    <nav class="col-3 menu"> <!-- 메뉴 -->
+        <ul><li><a href="https://">메인</a></li><li>수강(예정)과목</li><li>프로젝트</li><li>자격증</li><li>캡스톤, 해커톤, 경진대회</li></ul></nav>
     <section> <!-- main -->
-      <section><h3>환영합니다</h3>
+      <section class="col-6"><h3>환영합니다</h3>
         <p>안녕하세요. 전종현입니다.</p>
         <p>대전대학교에 재학중입니다.</p>
         <p>현재 배우고 있는 언어는 C++입니다.</p>
       </section>
     </section> <!-- /main -->
-    <aside>
+    <aside class="col-3 banner">
       <ul>
         <li><a href=https://www.google.com><img src="../images/googlePlus.png" alt="구글"/></a></li>
         <li><a href=https://www.facebook.com><img src="../images/facebookOne.png" alt="페이스북"/></a></li>
