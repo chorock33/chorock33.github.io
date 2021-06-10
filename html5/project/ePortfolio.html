@@ -1,0 +1,70 @@
+<!doctype html> <!-- ePortfolio.html -->
+<html>
+  <head><meta charset="utf-8"/>
+  <meta name="viewport"content="width=device-width, initial-scale=1"/>
+  <style>
+    * {box-sizing:border-box; padding:0; margin:0;}   .row::after {content:""; clear:both; display:table;}
+    .col-1 {width:8.33%;} .col-2 {width:16.66%;} .col-3 {width:25%;} .col-4 {width:33.33%;}
+    .col-5 {width:41.66%;} .col-6 {width:50%;} .col-7 {width:58.33%;} .col-8 {width:66.66%;}
+    .col-9 {width:75%;} .col-10 {width:83.33%;} .col-11 {width:91.66%;} .col-12 {width:100%;}
+    [class*="col-"] {float:left; padding:10px;} .header, .footer {background-color:lightgray; color:blue; padding:10px;}
+    .menu ul, .banner ul {list-style-type:none;}
+    .menu li {background-color:pink; color:black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
+    .menu li:hover {background-color:red;}
+    .banner li {border:2px solid black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
+    .banner li img {width:30%; vertical-align:middle;}
+    @media only screen and (max-width:768px) { [class*="col-"] {width:100%;} }
+    
+    header,nav,section,article,aside,footer
+    {border:1px solid gray; margin:5px; padding:8px; width:1000px;}
+    header h2 {float:left; border:solid 1px gray; margin:0 0 0 0; }
+    header ul {margin:0; padding:0; }
+    header ul li {display:inline; margin:5px}
+    header img{width:990px; height:200px;}
+    section{width:750px; float:left;}
+    section section{width:725px; float:left;}
+    aside{width:221px; float:left; line-height:30px;}
+    footer{height:50px; clear:both;}
+    nav ul{margin:0; padding:0;}
+    nav ul li{display:inline; margin:5px;}
+    aside ul{margin:0; padding:0;}
+    aside ul li{display:block; margin:5px;}
+    aside ul li img{width:50px; height:50px;}
+    a:link { color:blue; background-color:transparent; text-decoration:none;}
+    a:visited { color:pink; background-color:transparent; text-decoration:none;}
+    a:hover { color:red; background-color:transparent; text-decoration:underline;}
+    a:active { color:blue; background-color:transparent; text-decoration:none;}
+  </style>
+  <title>포트폴리오</title></head>
+  <body>
+    <header>
+      <h2>전종현의 포트폴리오</h2>
+      <img src="../" alt="그림"/>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="https://">HOME</a></li>
+        <li><a href="http://">Profile</a></li>
+      </ul>
+    </nav>
+    <nav> <!-- 메뉴 -->
+        <ul><li>수강(예정)과목</li><li>프로젝트</li><li>자격증</li><li>캡스톤, 해커톤, 경진대회</li></ul></nav>
+    <section> <!-- main -->
+      <section><h3>환영합니다</h3>
+        <p>안녕하세요. 전종현입니다.</p>
+        <p>대전대학교에 재학중입니다.</p>
+        <p>현재 배우고 있는 언어는 C++입니다.</p>
+      </section>
+    </section> <!-- /main -->
+    <aside>
+      <ul>
+        <li><a href=https://www.google.com><img src="../images/googlePlus.png" alt="구글"/></a></li>
+        <li><a href=https://www.facebook.com><img src="../images/facebookOne.png" alt="페이스북"/></a></li>
+        <li><a href=https://www.twitter.com><img src="../images/twitterYou.png" alt="트위터"/></a></li>
+      </ul>
+    </aside>
+    <footer>
+      <p>2021년 1학기 인터넷 응용 수업</p>
+    </footer>
+  </body>
+</html>
