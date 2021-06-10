@@ -15,17 +15,14 @@
     .banner li img {width:30%; vertical-align:middle;}
     @media only screen and (max-width:768px) { [class*="col-"] {width:100%;} }
     
+    
     header,nav,section,article,aside,footer
     {border:1px solid gray; margin:5px; padding:8px;}
     header h2 {float:left; border:solid 1px gray; margin:0 0 0 0; }
-
-
-
-
     aside{float:left; line-height:30px;}
     footer{height:50px; clear:both;}
     nav ul{margin:0; padding:0;}
-    nav ul li{display:inline; margin:5px;}
+    nav ul li{display:block; margin:5px;}
     aside ul{margin:0; padding:0;}
     aside ul li{display:block; margin:5px;}
     aside ul li img{width:50px; height:50px;}
@@ -38,7 +35,7 @@
   <body>
     <header>
       <h2>전종현의 포트폴리오</h2>
-      <img src="../" alt="그림"/>
+      <img src="../images/web-1935737_1920.png" alt="그림"/>
     </header>
     <nav class="col-3 menu"> <!-- 메뉴 -->
         <ul><li><a href="https://">메인</a></li><li>수강(예정)과목</li><li>프로젝트</li><li>자격증</li><li>캡스톤, 해커톤, 경진대회</li></ul></nav>
@@ -51,13 +48,13 @@
     </section> <!-- /main -->
     <aside class="col-3 banner">
       <ul>
-        <li><a href=https://www.google.com><img src="../images/googlePlus.png" alt="구글"/></a></li>
-        <li><a href=https://www.facebook.com><img src="../images/facebookOne.png" alt="페이스북"/></a></li>
-        <li><a href=https://www.twitter.com><img src="../images/twitterYou.png" alt="트위터"/></a></li>
+        <li><a href=https://www.google.com><img src="../images/googlePlus.png" alt="구글"/>구글</a></li>
+        <li><a href=https://www.facebook.com><img src="../images/facebookOne.png" alt="페이스북"/>페이스북</a></li>
+        <li><a href=https://www.twitter.com><img src="../images/twitterYou.png" alt="트위터"/>트위터</a></li>
       </ul>
     </aside>
-    <footer>
-      <p>2021년 1학기 인터넷 응용 수업</p>
+    <footer class="footer">
+      <h4>2021년 1학기 인터넷 응용 수업</h4>
     </footer>
   </body>
 </html>
