@@ -9,7 +9,7 @@
     .col-9 {width:75%;} .col-10 {width:83.33%;} .col-11 {width:91.66%;} .col-12 {width:100%;}
     [class*="col-"] {float:left; padding:10px;} .header, .footer {background-color:lightgray; color:blue; padding:10px;}
     .menu ul, .banner ul {list-style-type:none;}
-    .menu li {background-color:green; color:black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
+    .menu li {background-color:green; color:black; padding:10px; margin-bottom:10px;}
     .menu li:hover {background-color:white;}
     .banner li {border:2px solid black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
     .banner li img {width:30%; vertical-align:middle;}
@@ -19,8 +19,11 @@
     header,nav,section,article,aside,footer
     {border:1px solid gray; margin:5px; padding:8px;}
     header h2 {float:left; border:solid 1px gray; margin:0 0 0 0; }
-    header img {width:90%;}
+    header img {width:auto;}
     aside{float:left; line-height:30px;}
+    
+    section{height:30%;}
+    
     footer{height:50px; clear:both;}
     nav ul{margin:0; padding:0;}
     nav ul li{display:block; margin:5px;}
@@ -41,7 +44,7 @@
     <div class="row"></div>
     <div id="main">
       <nav class="col-3 menu"> <!-- 메뉴 -->
-        <ul><li><a href="https://">메인</a></li><li>수강(예정)과목</li><li>프로젝트</li><li>자격증</li><li>캡스톤, 해커톤, 경진대회</li></ul></nav>
+        <ul><a href="https://"><li>메인</li></a><li>수강(예정)과목</li><li>프로젝트</li><li>자격증</li><li>캡스톤, 해커톤, 경진대회</li></ul></nav>
       <section class="col-6"><h3>환영합니다</h3>
         <p>안녕하세요. 전종현입니다.</p>
         <p>대전대학교에 재학중입니다.</p>
