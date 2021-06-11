@@ -9,7 +9,7 @@
     .col-9 {width:75%;} .col-10 {width:83.33%;} .col-11 {width:91.66%;} .col-12 {width:100%;}
     [class*="col-"] {float:left; padding:10px;} .header, .footer {background-color:lightgray; color:black; padding:10px;}
     
-    header {border-style:none none double none; border-bottom-weight:0 0 2px 0;border-color:black; margin:5px; padding:8px;}
+    header {border-style:none none solid none; border-bottom-weight:0 0 2px 0;border-color:black; margin:5px; padding:8px;}
     header h2 {float:left; border:solid 1px transparent; margin:0 0 0 0; }
     header img {height:30%}
     
@@ -19,9 +19,9 @@
     .menu li {background-color:#BFFF00; color:black; padding:10px; margin-bottom:10px; font-weight:bold;}
     .menu li:hover {background-color:white;}
     
-    .banner {float:left; line-height:30px;}
+    .banner {float:left; line-height:50px;}
     .banner ul {list-style-type:none;}
-    .banner li img {width:30%; vertical-align:middle;}
+    .banner li img {width:50px; vertical-align:middle;line-height:10px}
     @media only screen and (max-width:768px) { [class*="col-"] {width:100%;} }
     
     nav,section,article,aside,footer
@@ -44,7 +44,13 @@
     <div class="row"></div>
     <div id="main">
       <nav class="col-3 menu"> <!-- 메뉴 -->
-        <ul><a href="https://"><li>메인</li></a><li>수강(예정)과목</li><li>프로젝트</li><li>자격증</li><li>캡스톤, 해커톤, 경진대회</li></ul></nav>
+        <ul>
+          <a href="https://chorock33.github.io/html5/project/ePortfolio.html"><li>메인</li></a>
+          <li>수강(예정)과목</li>
+          <li>프로젝트</li>
+          <li>자격증</li>
+          <li>캡스톤, 해커톤, 경진대회</li>
+        </ul></nav>
       <section class="col-6"><h3>환영합니다</h3>
         <p>안녕하세요. 전종현입니다.</p>
         <p>대전대학교에 재학중입니다.</p>
